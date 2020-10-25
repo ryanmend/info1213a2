@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>John Doe Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/85f6900ed8.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<!-- navbar -->
+
+<body>
+  <section id="top">
+    <div class="container-fluid">
+      <nav class="navbar navbar-dark flex-md-row flex-column bd-navbar navbar-expand">
+        <a class="navbar-brand" href="">John Doe</a>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown">
+            Sections
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#main">About Me</a>
+            <a class="dropdown-item" href="#edu">Education</a>
+            <a class="dropdown-item" href="#workex">Work Experience</a>
+            <a class="dropdown-item" href="#prolang">Programming Languages</a>
+          </div>
+        </div>
+        <form class="form-inline my-lg-0 my-2">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <a href="bsod.html"><button class="btn btn-outline-success my-sm-0 my-2" type="submit">Search</button></a>
+        </form>
+      </nav>
+    </div>
+  </section>
+
+  <!-- contact card -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-12 col-sm-12">
+        <section id="linksCard">
+          <a href="bsod.html"><img id="me" src="images/face.jpg" alt=""></a>
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="https://ca.linkedin.com/" class="fab fa-linkedin"></a>
+              <a href="https://www.whatsapp.com/" class="fab fa-whatsapp"></a>
+              <a href="https://twitter.com/" class="fab fa-twitter"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+              <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+              <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- jumbotron -->
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <section id="main">
+          <div class="jumbotron">
+            <h1 class="display-4">Hi, I'm John Doe</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+              Duisauteirure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+          <!--- accordion --->
+          <div id="accordion">
+
+            <section id="edu">
+              <div class="card">
+                <div class="card-header" id="headingIchi">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseIchi" aria-expanded="true" aria-controls="collapseIchi">
+                    <h2>Education</h2>
+                  </button>
+                </div>
+                <div id="collapseIchi" class="collapse show" aria-labelledby="headingIchi" data-parent="#accordion">
+                  <div class="card-body">
+                    <h3>Kwantlen University</h3>
+                    <h4>2017-2021</h4>
+                    <p>Fringilla phasellus faucibus scelerisque eleifend donec pretium. Turpis in eu mi bibendum neque egestas congue quisque egestas. Habitant morbi tristique senectus et netus et malesuada fames. Sed id semper risus in. In iaculis
+                      nunc
+                      sedaugue.</p>
+                    <h3>McDub Secondary</h3>
+                    <h4>2013-2017</h4>
+                    <p>Vel turpis nunc eget lorem dolor sed viverra. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Tristique risus nec feugiat in fermentum. Diam sit amet nisl suscipit adipiscing. Sit amet massa vitae tortor
+                      condimentum
+                      lacinia quis vel.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="workex">
+              <div class="card">
+                <div class="card-header" id="headingNi">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNi" aria-expanded="false" aria-controls="collapseNi">
+                    <h2>Work Experience</h2>
+                  </button>
+                </div>
+                <div id="collapseNi" class="collapse" aria-labelledby="headingNi" data-parent="#accordion">
+                  <div class="card-body">
+                    <h3>Doofenshmirtz Inc.</h3>
+                    <h4>2021-present</h4>
+                    <p>Blandit massa enim nec dui nunc mattis enim. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Augue mauris augue neque gravida in fermentum et. Sollicitudin ac orci phasellus egestas tellus rutrum
+                      tellus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <br>
+
+          <!-- carousel -->
+          <section id="prolang">
+            <h2>Programming Languages</h2>
+            <div id="carouselMark" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselMark" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselMark" data-slide-to="1"></li>
+                <li data-target="#carouselMark" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="bsod.html"><img class="d-block w-100" src="images/001-css-3.png" alt="Slide Ichi"></a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>CSS</h3>
+                    <h4>Lorem ipsum dolor meme skateboard</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <a href="bsod.html"><img class="d-block w-100" src="images/002-javascript.png" alt="Slide Ni"></a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Javascript</h3>
+                    <h4>Lorem ipsum dolor meme skateboard</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <a href="bsod.html"><img class="d-block w-100" src="images/003-html-5.png" alt="Slide San"></a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>HTML</h3>
+                    <h4>Lorem ipsum dolor meme sateboard</h4>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselMark" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselMark" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
+
+        </section>
+      </div>
+    </div>
+</body>
+
+</html>

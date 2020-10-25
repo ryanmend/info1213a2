@@ -1,0 +1,123 @@
+body
+{
+  background-color: #dddee2;
+  font-family: 'Raleway', sans-serif;
+}
+a
+{
+  color: #dddee2;
+}
+
+.fa-linkedin:hover
+{
+  color: #0e76a8;
+}
+.fa-whatsapp:hover
+{
+  color: #25D366;
+}
+.fa-twitter:hover
+{
+  color: #00acee;
+}
+.fa-youtube:hover
+{
+  color: #FF0000;
+}
+.fa-instagram:hover
+{
+  color: #E1306C;
+}
+.fa-facebook:hover
+{
+  color: #3b5998;
+}
+
+h1
+{
+  text-align: center;
+}
+h2
+{
+  color: #dddee2;
+}
+h3
+{
+
+  color: #252a34;
+}
+
+h4
+{
+
+  color: #252a34;
+}
+
+h5
+{
+  color: #dddee2;
+}
+
+#top
+{
+  background-color: #ad000f;
+  text-align: center;
+
+}
+
+
+#linksCard
+{
+  background-color: #252a34;
+  width: 250px;
+  height: 400px;
+  color: #dddee2;
+  font-size: 3rem;
+  text-align: center;
+  margin: 3rem auto 0.0001rem auto;
+}
+
+#me
+{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+#main
+{
+  background-color: #252a34;
+  margin: 3rem auto 3rem auto;
+  height: 2000px;
+  color: #252a34;
+  padding: 1rem;
+}
+
+.jumbotron
+{
+  color: #252a34;
+  background-color: #dddee2;
+}
+
+#accordion
+{
+  background-color: #252a34;
+}
+
+.card > .card-header
+{
+    background-color:#ad000f;
+    color: #dddee2;
+}
+
+.card-body
+{
+  background-color: #dddee2;
+  text-align: right;
+}
+
+#prolang
+{
+  text-align: center;
+  background-color: #ad000f;
+}
